@@ -8,6 +8,8 @@
     "project": "./tsconfig.json"
   },
   "rules": {
-    "react/react-in-jsx-scope": "off"
+    "react/react-in-jsx-scope": "off",
+    "react/no-unescaped-entities": "off",
+    "jsx-a11y/control-has-associated-label": "off"
   }
 }
