@@ -10,6 +10,9 @@
   "rules": {
     "react/react-in-jsx-scope": "off",
     "react/no-unescaped-entities": "off",
-    "jsx-a11y/control-has-associated-label": "off"
+    "jsx-a11y/control-has-associated-label": "off",
+    "react/no-array-index-key": "off",
+    "@typescript-eslint/no-use-before-define": "off",
+    "react/jsx-props-no-spreading": "off"
   }
 }
