@@ -38,7 +38,7 @@ export default function About() {
         is
         {' '}
         <span className="font-medium">
-          React, Next.js, Node.js, and MongoDB
+          React, Next.js, Redux, and TypeScript
         </span>
         . I am also familiar with TypeScript and Prisma. I am always looking to
         learn new technologies. I am currently looking for a

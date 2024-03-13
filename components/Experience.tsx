@@ -16,7 +16,7 @@ export default function Experience() {
       <VerticalTimeline lineColor="">
         {
           experiencesData.map(({
-            title, location, description, date, icon,
+            title, learning, description, date, icon,
           }, index) => (
             <Fragment key={index}>
               <VerticalTimelineElement
@@ -38,7 +38,7 @@ export default function Experience() {
                 }}
               >
                 <h3 className="font-semibold capitalize">{title}</h3>
-                <p className="font-normal !mt-0">{location}</p>
+                <p className="font-normal !mt-0">{learning}</p>
                 <p className="!mt-1 !font-normal text-gray-700">{description}</p>
               </VerticalTimelineElement>
             </Fragment>

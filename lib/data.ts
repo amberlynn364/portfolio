@@ -1,5 +1,4 @@
 import React from 'react';
-import { CgWorkAlt } from 'react-icons/cg';
 import { FaReact } from 'react-icons/fa';
 import { LuGraduationCap } from 'react-icons/lu';
 import corpcommentImg from '@/public/corpcomment.png';
@@ -35,28 +34,28 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: 'Graduated bootcamp',
-    location: 'Miami, FL',
+    title: 'Self Studying',
+    learning: 'Technical literature',
     description:
-      'I graduated after 6 months of studying. I immediately found a job as a front-end developer.',
+      'I studied books like "JavaScript - The Definitive Guide, 7th Edition" by David Flanagan and "Learning React", 2nd Edition by Alex Banks, Eve Porcello',
     icon: React.createElement(LuGraduationCap),
-    date: '2019',
+    date: '2022',
+  },
+  {
+    title: 'Road to Front-End Developer',
+    learning: 'Programming courses',
+    description:
+      'I took programming courses for a year and studied HTML, CSS, JavaScript, TypeScript, React',
+    icon: React.createElement(LuGraduationCap),
+    date: '2023 - 2024',
   },
   {
     title: 'Front-End Developer',
-    location: 'Orlando, FL',
+    learning: 'Work on yourself',
     description:
-      'I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.',
-    icon: React.createElement(CgWorkAlt),
-    date: '2019 - 2021',
-  },
-  {
-    title: 'Full-Stack Developer',
-    location: 'Houston, TX',
-    description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
+      "I'm now a front-end developer and I'm working on new projects and trying to become better. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and PostgreSQL. I'm open to full-time opportunities.",
     icon: React.createElement(FaReact),
-    date: '2021 - present',
+    date: '2024 - present',
   },
 ] as const;
 
@@ -90,18 +89,16 @@ export const skillsData = [
   'JavaScript',
   'TypeScript',
   'React',
+  'Redux',
   'Next.js',
   'Node.js',
-  'Git',
+  'Nest.js',
+  'CSS-modules',
   'Tailwind',
+  'Rest API',
+  'Git',
   'Prisma',
-  'MongoDB',
-  'Redux',
-  'GraphQL',
-  'Apollo',
-  'Express',
   'PostgreSQL',
-  'Python',
-  'Django',
   'Framer Motion',
+  'Figma',
 ] as const;
