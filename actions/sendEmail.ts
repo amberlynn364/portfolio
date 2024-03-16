@@ -24,8 +24,9 @@ const sendEmail = async (formData: FormData) => {
     };
   }
 
+  let data;
   try {
-    await resend.emails.send({
+    data = await resend.emails.send({
       from: 'Contact Form <onboarding@resend.dev>',
       to: 'amberlynn364@gmail.com',
       subject: 'Message from contact form',
@@ -41,7 +42,7 @@ const sendEmail = async (formData: FormData) => {
     };
   }
 
-  return undefined;
+  return { data };
 };
 
 export default sendEmail;

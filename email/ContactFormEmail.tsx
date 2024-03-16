@@ -1,5 +1,3 @@
-'use client';
-
 import {
   Body,
   Container,
@@ -33,13 +31,13 @@ export default function ContactFormEmail({
               <Heading className="leading-tight">
                 You received the following message from the contact form
               </Heading>
+              <Text>{message}</Text>
+              <Hr />
+              <Text>
+                The sender's email is:
+                {senderEmail}
+              </Text>
             </Section>
-            <Text>{message}</Text>
-            <Hr />
-            <Text>
-              The sender's email is:
-              {senderEmail}
-            </Text>
           </Container>
         </Body>
       </Tailwind>
