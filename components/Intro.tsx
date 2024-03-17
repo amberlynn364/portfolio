@@ -63,7 +63,7 @@ export default function Intro() {
         {' '}
         with
         {' '}
-        <span className="font-bold">more then one year</span>
+        <span className="font-bold">over a year</span>
         {' '}
         of experience. I enjoy
         building
