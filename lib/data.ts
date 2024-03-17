@@ -63,10 +63,10 @@ export const projectsData = [
   {
     title: 'In Developing',
     description:
-      'Will be added soon. The strongest project is expected',
+      'Will be added soon. The strongest project is expected. You can currently view my projects on GitHub.',
     tags: ['React', 'Next.js'],
     imageUrl: webDevelopmentImg,
-    link: '#',
+    link: 'https://github.com/amberlynn364',
   },
   {
     title: 'Home Library Service',
