@@ -49,7 +49,7 @@ export default function Intro() {
         </div>
       </div>
       <motion.h1
-        className="mb-10 mt-4 px-4 text-2xl font-medium !leading-[1.5] sm:text-4xl"
+        className="mb-10 mt-4 px-4 text-2xl font-medium !leading-[1.5] sm:text-[2.15rem]"
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
@@ -63,7 +63,7 @@ export default function Intro() {
         {' '}
         with
         {' '}
-        <span className="font-bold">more then one year</span>
+        <span className="font-bold">over a year</span>
         {' '}
         of experience. I enjoy
         building
