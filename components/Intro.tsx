@@ -53,7 +53,9 @@ export default function Intro() {
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
-        <span className="font-bold">Hello, I'm Ivan.</span>
+        Hello, I'm
+        {' '}
+        <span className="font-bold">Ivan.</span>
         {' '}
         I'm a
         {' '}
@@ -61,7 +63,7 @@ export default function Intro() {
         {' '}
         with
         {' '}
-        <span className="font-bold">1 years</span>
+        <span className="font-bold">more then one year</span>
         {' '}
         of experience. I enjoy
         building
@@ -89,14 +91,28 @@ export default function Intro() {
           Contact me here
           <BsArrowRight className="opacity-70 group-hover:translate-x-1 transition" />
         </Link>
-        <a href="/CV.pdf" download className="group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer borderBlack">
+        <a
+          href="/CV.pdf"
+          download
+          className="group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10"
+        >
           Download CV
           <HiDownload className="opacity-60 group-hover:translate-y-1 transition" />
         </a>
-        <a href="https://github.com/amberlynn364" target="_blank" className="bg-white p-4 text-gray-700 flex items-center gap-2 text-[1.35rem] rounded-full outline-none focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack" rel="noreferrer">
+        <a
+          href="https://github.com/amberlynn364"
+          target="_blank"
+          className="bg-white p-4 text-gray-700 flex items-center gap-2 text-[1.35rem] rounded-full outline-none focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
+          rel="noreferrer"
+        >
           <FaGithubSquare />
         </a>
-        <a href="https://t.me/amberlynn364" target="_blank" className="bg-white p-4 text-gray-700 flex items-center gap-2 rounded-full outline-none focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack" rel="noreferrer">
+        <a
+          href="https://t.me/amberlynn364"
+          target="_blank"
+          className="bg-white p-4 text-gray-700 flex items-center gap-2 rounded-full outline-none focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
+          rel="noreferrer"
+        >
           <BsTelegram />
         </a>
       </motion.div>
